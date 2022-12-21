@@ -22,7 +22,7 @@ int main() {
     double a, b, x, err;
 
     do {
-        cout << "insierire estremi" << endl;
+        cout << "inserire estremi" << endl;
         cin >> a >> b;
 
     } while((f(a)*f(b))>=0);
