@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+double funzione (double y) {
+    y=(pow(y,2)* cos(y))+1;
+
+    return y;
 int main() {
    double a, b, x, err;
 
